@@ -6,5 +6,6 @@
 * NOTES :
 ```
       - Gems added into gemfile ;
+      - rails generate simple_form:install ;
       - 
 ```
