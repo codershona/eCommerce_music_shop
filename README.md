@@ -13,5 +13,9 @@
       - rails db:migrate ;
       - rails g migration add_name_to_users name:string ;
       - rails db:migrate;
-      - 
+
+
+
+      
+      - left ( rails g devise:views ;)
 ```

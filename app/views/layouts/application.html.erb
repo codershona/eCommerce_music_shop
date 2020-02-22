@@ -50,10 +50,10 @@
             <%# end %>
 
             <% if user_signed_in? %>
-              <%= link_to 'Sell', '#', class: "navbar-item button is-dark" %>
+              <%= link_to 'SELL', '#', class: "navbar-item button is-dark" %>
 
               <div class="navbar-item has-dropdown is-hoverable">
-                <%= link_to 'Account', edit_user_registration_path, class: "navbar-link" %>
+                <%= link_to 'ACCOUNT', edit_user_registration_path, class: "navbar-link" %>
                 <div class="navbar-dropdown is-right">
                   <%= link_to current_user.name, edit_user_registration_path, class:"navbar-item" %>
                   <%= link_to "Log Out", destroy_user_session_path, method: :delete, class:"navbar-item" %>
