@@ -28,7 +28,18 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
+gem 'mini_magick', '~> 4.8'
+
+gem 'bulma-rails', '~> 0.8.0'
+
+gem 'simple_form', '~> 5.0', '>= 5.0.2'
+
+gem 'devise', '~> 4.7', '>= 4.7.1'
+
+gem 'gravatar_image_tag', '~> 1.2'
+
+gem 'carrierwave', '~> 2.1'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
