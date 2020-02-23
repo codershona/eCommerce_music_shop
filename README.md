@@ -23,6 +23,10 @@
       - rails db:migrate ;
       - left ( rails g devise:views ;)
 
+      Cart and Line Items Setup :
+
+        - 
+
 
       
       
