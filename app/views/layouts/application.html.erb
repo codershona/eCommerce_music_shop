@@ -50,7 +50,7 @@
             <%# end %>
 
             <% if user_signed_in? %>
-              <%= link_to 'SELL', '#', class: "navbar-item button is-dark" %>
+              <%= link_to 'SELL', new_instrument_path, class: "navbar-item button is-dark" %>
 
               <div class="navbar-item has-dropdown is-hoverable">
                 <%= link_to 'ACCOUNT', edit_user_registration_path, class: "navbar-link" %>
