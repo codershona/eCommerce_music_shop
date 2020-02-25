@@ -1,5 +1,8 @@
 ## Project: eCommerce Music Shop(Flanger MuSiC)
 
+#### Ready to deply in Heroku.
+
+### Builded by Falguni Islam (Software developer)
 
 
 
@@ -31,9 +34,8 @@
         - rails db:migrate ;
         - rails g migration add_quantity_to_line_items ;
         - rails db:migrate ;
-        - 
-
-
-      
+        
+        * To seeds :
+          - rails db:seed ;
       
 ```
