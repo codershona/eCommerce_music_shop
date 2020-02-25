@@ -25,6 +25,12 @@
 
       Cart and Line Items Setup :
 
+        - rails g scaffold Cart --no-stylesheets --no-javascripts ;
+        - rails db:migrate ;
+        - rails g scaffold LineItem instrument:references cart:belongs_to ;
+        - rails db:migrate ;
+        - rails g migration add_quantity_to_line_items ;
+        - rails db:migrate ;
         - 
 
 
