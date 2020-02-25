@@ -1,6 +1,6 @@
 ## Project: eCommerce Music Shop(Flanger MuSiC)
 
-#### Ready to deply in Heroku.
+# Ready to deploy in Heroku.
 
 ### Builded by Falguni Islam (Software developer)
 
